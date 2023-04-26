@@ -6,14 +6,14 @@ function loading() {
  msg.innerHTML = `It's ${hour} o'clock`
 
     if (hour >= 0 && hour < 12) {
-        p.src = 'imagens/manha.jpg'
+        p.src = 'IMAGENS/manha.jpg'
         document.body.style.background = '#e3d871'
     } else if (hour >= 12 && hour < 18) {
 
-        p.src = 'imagens/tarde.jpg'
+        p.src = 'IMAGENS/tarde.jpg'
         document.body.style.background = '#fab875'
     } else {
-        p.src = 'imagens/noite.jpg'
+        p.src = 'IMAGENS/noite.jpg'
         document.body.style.background = '#394454'
     }
   
